@@ -22,7 +22,8 @@ namespace TSX.Learn.NetCore
             {
                 printTasks.Add(PrintMessage(x));
             }
-            Task.WaitAll(printTasks.ToArray());
+            /////////////////////////Task.WaitAll(printTasks.ToArray());
+            /////////////////////////await Task.WhenAll(printTasks.ToArray());
         }
 
 
