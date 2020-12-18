@@ -2,7 +2,7 @@
   "profiles": {
     "TSX.Learn.NetCore": {
       "commandName": "Project",
-      "commandLineArgs": "AsyncAwaitEx4"
+      "commandLineArgs": "AsyncAwaitEx7"
     }
   }
 }

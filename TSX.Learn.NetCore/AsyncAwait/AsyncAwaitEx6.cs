@@ -9,24 +9,24 @@ namespace TSX.Learn.NetCore
 {
 
     // Why not use Parallel.Foreach ???
-    public class AsyncAwaitEx5
+    public class AsyncAwaitEx6
     {
         private Stopwatch watch = new Stopwatch();
 
-        public void Run()
+        public async Task Run()
         {
             watch.Start();
             List<string> messagesToPrint = GetMessageList(length: 200);
-            Parallel.ForEach(messagesToPrint, x =>
+            foreach (var x in messagesToPrint)
             {
                 PrintMessage(x);
-            });
+            }
         }
 
 
-        public void PrintMessage(string message, int delay = 2000)
+        public async Task PrintMessage(string message, int delay = 2000)
         {
-            Thread.Sleep(delay);
+            await Task.Delay(delay);
             Console.WriteLine("Printing Message: " + message + "-- in "+ watch.ElapsedMilliseconds + " milliseconds");
         }
 
