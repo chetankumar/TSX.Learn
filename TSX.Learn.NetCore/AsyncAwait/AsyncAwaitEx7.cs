@@ -9,6 +9,7 @@ namespace TSX.Learn.NetCore
 {
 
     // Why not use Parallel.Foreach ???
+    // Difference between wait all and when all
     public class AsyncAwaitEx7
     {
         private Stopwatch watch = new Stopwatch();

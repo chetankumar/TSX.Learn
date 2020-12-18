@@ -19,7 +19,7 @@ namespace TSX.Learn.NetCore
             List<string> messagesToPrint = GetMessageList(length: 200);
             foreach (var x in messagesToPrint)
             {
-                PrintMessage(x);
+                PrintMessage(x); // What happens when we put await before this?
             }
         }
 
