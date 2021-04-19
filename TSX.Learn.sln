@@ -9,6 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TSX.Learn.AsyncAwait", "TSX
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TSX.Learn.Vue", "TSX.Learn.Vue\TSX.Learn.Vue.njsproj", "{3D1D20A9-7A43-4020-989F-F2635D84EB34}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chapter_01_HelloWorld", "Chapter_01_HelloWorld\Chapter_01_HelloWorld.csproj", "{42942643-6C31-4B18-9029-F2E28C6B8322}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp9", "CSharp9\CSharp9.csproj", "{53EA80D3-F8F9-4B7F-B36E-01042D31B34B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{3D1D20A9-7A43-4020-989F-F2635D84EB34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D1D20A9-7A43-4020-989F-F2635D84EB34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D1D20A9-7A43-4020-989F-F2635D84EB34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42942643-6C31-4B18-9029-F2E28C6B8322}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42942643-6C31-4B18-9029-F2E28C6B8322}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42942643-6C31-4B18-9029-F2E28C6B8322}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42942643-6C31-4B18-9029-F2E28C6B8322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53EA80D3-F8F9-4B7F-B36E-01042D31B34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53EA80D3-F8F9-4B7F-B36E-01042D31B34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53EA80D3-F8F9-4B7F-B36E-01042D31B34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53EA80D3-F8F9-4B7F-B36E-01042D31B34B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
